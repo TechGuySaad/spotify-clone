@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.sidebar{
+    background-color: black;
+    /* background-color: black; */
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    row-gap: 55px;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: ce; */
+}
+
+.logoContainer{
+    display: flex;
+    align-items: center;
+    color: white;
+    column-gap: 5px;
+    font-family: 'Montserrat', sans-serif;
+    /* align-self: first baseline; */
+
+    
+}
+
+.navIconContainer{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    row-gap: 20px;
+
+
+}
+
+.homeLogo{
+    color: rgb(197, 196, 196);
+    display: flex;
+    column-gap: 30px;
+
+
+}
+
+.searchLogo{
+    color: rgb(197, 196, 196);
+    display: flex;
+    column-gap: 30px;
+
+}
+
+.libraryLogo{
+    color: rgb(197, 196, 196);
+    display: flex;
+    column-gap: 30px;
+}
+
+.homeLogo:hover , .searchLogo:hover , .libraryLogo:hover{
+    color: white;
+} 
+
+.navIconContainer2{
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    row-gap: 20px;
+    /* color: white; */
+    /* background-color: red; */
+
+}
+
+.likedSongs{
+    color: rgb(197, 196, 196);
+    display: flex;
+    column-gap: 30px;
+    /* width: fit-content; */
+    /* background-color: red; */
+}
+
+.createPlaylist{
+    color: rgb(197, 196, 196);
+    display: flex;
+    column-gap: 30px;
+    /* background-color: red; */
+    padding-left: 4px;
+
+}
+
+.line{
+
+    width: 80%;
+    border: 1px solid rgb(197, 196, 196);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
